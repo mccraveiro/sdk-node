@@ -64,7 +64,8 @@ exports.create = async function (payments, {user} = {}) {
      *
      * Parameters (required):
      * @param payments [list of UtilityPayment objects]: list of UtilityPayment objects to be created in the API
-     * @param Parameters (optional):
+     * 
+     * Parameters (optional):
      * @param user [Project object]: Project object. Not necessary if starkbank.user was set before function call
      * 
      * Return:
